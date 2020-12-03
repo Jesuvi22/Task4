@@ -1,1 +1,42 @@
-# Task4
+
+1)Write a program to create a list of n integer values and do the following
+• Add an item in to the list (using function)
+Ans:
+
+a= list(range(1,6))
+a.insert(6,7)
+print(a)
+
+• Delete (using function)
+Ans:
+
+a= list(range(1,6))
+print(a.pop(0))
+print(a)
+
+• Store the largest number from the list to a variable
+Ans:
+
+x=[7,8,9,5]
+x.sort()
+y=x[-1]
+print("the largest number is:",y)
+
+• Store the Smallest number from the list to a variable
+Ans:
+
+x=[7,8,9,5]
+x.sort()
+y=x[1]
+print("the smallest number is:",y)
+
+2) Create a tuple and print the reverse of the created tuple
+Ans:
+my_tuple = [(1,2),(3,4),(5,6)]
+print(my_tuple[::-1])
+
+3) Create a tuple and convert tuple into list
+Ans:
+x=[(1,2),(3,4),(5,6)]
+y=list(sum(x,()))
+print(y)
